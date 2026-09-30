@@ -1,191 +1,120 @@
-# Awesome-Digital-Twin-For-Buildings
+# 🏢 Awesome Digital Twin For Buildings 🚀
 
-## Top Digital Twin for Buildings Ecosystem
+<p center align="center">
+  <img src="assets/banner.svg" alt="Awesome Digital Twin For Buildings Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Twin-For-Buildings/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Digital-Twin-For-Buildings?style=flat-square&logo=github" alt="Github Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Twin-For-Buildings/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Digital-Twin-For-Buildings?style=flat-square&logo=github" alt="Github Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Twin-For-Buildings/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Digital-Twin-For-Buildings?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🌟 Overview & Market Intelligence
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+A curated directory of **Building Digital Twin SaaS Platforms**, **Open-Source Building Information Modeling (BIM/IFC)** engines, **Smart Building Operations**, **IoT Sensor Fusion**, and **PropTech Architectures**.
 
-*Focused on Building Digital Twins, BIM/IFC Integration, Facility Operations, IoT Fusion & Construction Progress Twins*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Digital Twins for Buildings**. These systems create living virtual models of buildings—geometry, systems, sensors, and operations—so owners and operators can design, construct, and run facilities more efficiently.
-
-
-
-**Examples** include Willow, Buildots, Matterport Digital Twin, Facilio, Siemens Building X, Johnson Controls OpenBlue, NVIDIA Omniverse, AECOM Digital Twin, Azure Digital Twins, and Autodesk Tandem (the category leaders).
-
-
-
-**Open-source emphasis**: Building twins lean on open BIM standards. **IfcOpenShell**, **Bonsai**, **That Open**, **Brick Schema**, and **Eclipse Ditto** enable open geometry, semantics, and IoT twin layers. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Willow, Facilio, Autodesk Tandem](https://www.willowinc.com/)**  
-
-  Building and portfolio digital twin platforms connecting BIM, IoT, and facilities data for operations and lifecycle management.
-
-
-
-- **[Siemens Building X, Johnson Controls OpenBlue](https://www.siemens.com/building-x)**  
-
-  Enterprise building management and twin platforms from major BMS vendors—systems, energy, and space intelligence.
-
-
-
-- **[Matterport, Buildots](https://matterport.com/)**  
-
-  Reality-capture and construction progress twins—3D scans and AI comparison to design intent on site.
-
-
-
-- **[NVIDIA Omniverse, Azure Digital Twins, AECOM Digital Twin offerings](https://www.nvidia.com/en-us/omniverse/)**  
-
-  Simulation, IoT twin, and professional services platforms for high-fidelity building and campus models.
-
-
-
-- **[Other commercial building twin platforms](https://www.willowinc.com/)**  
-
-  Additional solutions for smart buildings, digital handover, and portfolio visibility.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell)**  
-
-  Leading open-source IFC library and geometry engine—parse, convert, and analyze Industry Foundation Classes models (IFC2x3/IFC4/IFC4x3).
-
-
-
-- **[Bonsai (BlenderBIM)](https://github.com/IfcOpenShell/IfcOpenShell)**  
-
-  Open Blender-based IFC authoring and viewing—native OpenBIM modeling on top of IfcOpenShell.
-
-
-
-- **[That Open Engine / IFC.js ecosystem](https://github.com/ThatOpen)**  
-
-  Open web tools for viewing and working with IFC in the browser—foundation for custom building twin frontends.
-
-
-
-- **[Brick Schema](https://github.com/BrickSchema/Brick)**  
-
-  Open metadata schema for buildings—semantic tagging of equipment, points, and spaces for interoperable digital twins.
-
-
-
-- **[Eclipse Ditto](https://github.com/eclipse-ditto/ditto)**  
-
-  Open digital twin framework for IoT devices and systems—API-centric twins that complement BIM geometry layers.
-
-
-
-- **[xBIM Toolkit](https://github.com/xBimTeam/XbimEssentials)**  
-
-  Open .NET toolkit for BIM—IFC reading, geometry, and federated model workflows.
-
-
-
-- **[buildingSMART standards & bSDD tooling](https://github.com/buildingSMART)**  
-
-  Open specifications and libraries for IFC, IDS, BCF, and the buildingSMART Data Dictionary.
-
-
-
-- **[Open BMS / IoT stacks (Home Assistant, VOLTTRON)](https://github.com/home-assistant/core)**  
-
-  Open automation and sensing platforms often used as operational data sources for building twins.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Geometry & BIM**: IfcOpenShell + Bonsai + That Open web viewers.
-
-- **Semantics**: Brick Schema for equipment and point relationships.
-
-- **Live twin API**: Eclipse Ditto for device/state twins.
-
-- **Composable stacks**: IFC model → web viewer + Brick metadata + IoT broker + Ditto → ops dashboard.
-
-- Commercial platforms still lead in reality capture pipelines, portfolio scale, and BMS vendor integration.
-
-
-
-**Frameworks for building custom systems**:  
-
-**IfcOpenShell** / **Bonsai** for OpenBIM; **That Open** for web visualization; **Brick** + **Eclipse Ditto** for operational semantics and IoT.  
-
-Commercial platforms (Willow, Facilio, Building X, OpenBlue, Matterport, Tandem, etc.) provide end-to-end products.  
-
-Owners and researchers often prototype on open BIM/IoT stacks; large portfolios adopt commercial twins. Fully open building twins are achievable for single assets with strong AEC and IoT skills.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Building digital twins combine design, sensor, and sometimes occupant data. Apply appropriate access control, privacy safeguards, and cybersecurity for OT/IoT systems. Models and simulations support decisions—they do not replace licensed engineering judgment or code compliance.
-
-- Open-source tools offer standards alignment and data ownership but require integration effort. Commercial platforms shift product and support burden to the vendor. Prefer open formats (IFC, Brick) to reduce lock-in.
-
-
+These systems create living, real-time virtual models of physical facility assets—integrating 3D geometry, HVAC sensor streams, operational analytics, and spatial intelligence to enable energy efficiency, predictive maintenance, and sustainable building management.
 
 ---
 
+## 📑 Table of Contents
+
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architectural Blueprints](#%EF%B8%8F-architectural-blueprints)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## 🏢 SaaS & Hosted Commercial Platforms
+
+> 📊 **Market Size & Market Structure**: The global Building Digital Twin market size is estimated at **~$3.2 Billion in 2024–2026** and is projected to grow to over **$15–20 Billion by 2032** (CAGR ~30–35%). The market is **highly fragmented**, spanning BMS conglomerates (Siemens, Johnson Controls), cloud providers (Microsoft, NVIDIA), AEC software giants (Autodesk), and specialized venture-funded startups (Willow, Buildots, Facilio). No single vendor dominates end-to-end building operations.
+
+| Product | Enterprise Size (Revenue / Valuation) | Description | Starting Pricing Tier | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[NVIDIA Omniverse](https://www.nvidia.com/en-us/omniverse/)** 🌐 | Revenue: ~$126 Billion | High-fidelity 3D simulation and industrial digital twin platform. | Omniverse Enterprise starts at $4,500 / year per workstation license. | Free Enterprise 30-day trial available; Omniverse Standard is free for individual creators. |
+| **[Microsoft Azure Digital Twins](https://www.microsoft.com/en-us/videoplayer/embed/RE4NdfK)** ☁️ | Revenue: ~$245 Billion | Cloud IoT twin platform to model assets, environments, and spatial intelligence graph. | Pay-as-you-go starting at $0.005 per 1k operations + $0.002 per message. | 30-day Free Azure Account with $200 free credit + 12 months free popular services. |
+| **[Siemens Building X](https://www.siemens.com/building-x)** ⚙️ | Revenue: ~$84 Billion | Enterprise smart building suite focusing on energy efficiency and operational twins. | Building X Apps start at €1,200 / building / year. | 30-day free trial on selected Building X applications. |
+| **[Johnson Controls OpenBlue](https://www.johnsoncontrols.com/openblue)** 🏛️ | Revenue: ~$27 Billion | Smart building management, indoor air quality, and decarbonization twin platform. | OpenBlue Enterprise suite starts at $5,000 / building / year. | No standard public free tier; custom 30-day proof-of-concept pilot on request. |
+| **[Autodesk Tandem](https://aps.autodesk.com/autodesk-tandem)** 🏗️ | Revenue: ~$5.8 Billion | Cloud digital twin platform connecting BIM design data to operational facility metrics. | Paid Tandem Small tier starts at $3,000 / year (up to 100,000 sq ft). | Free tier available for up to 1 building model under 10,000 sq ft. |
+| **[Matterport Digital Twin](https://matterport.com/)** 📸 | Revenue: ~$160 Million (Acquired by CoStar for ~$1.6B) | 3D reality-capture and spatial data digital twins for property visual management. | Starter plan starts at $11.95 / month (billed annually). | 1 free active space with 1 user and unlimited edits forever. |
+| **[Willow](https://www.willowinc.com/)** 🏙️ | Valuation: ~$500 Million | Real estate and infrastructure digital twin integrating BIM, BMS, and IoT data. | Commercial deployment starts at $25,000 / asset / year. | No free tier; 14-day structured demo sandbox environment for qualified enterprise leads. |
+| **[Buildots](https://buildots.com/)** 👷 | Valuation: ~$300 Million | AI-driven construction progress twins capturing site progress via 360° cameras. | Project license starts at $15,000 / construction site / project. | No public free tier; 14-day guided proof-of-concept on active construction sites. |
+| **[Facilio](https://facilio.com/)** ⚡ | Valuation: ~$100 Million | Data-driven property operations and IoT-led facility twin platform. | Starter plan starts at $450 / facility / month. | 14-day full feature free trial for facility management teams. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The following open-source frameworks and SDKs allow developers to engineer custom building twins using OpenBIM geometry engines, semantic metadata schemas, and IoT telemetry pipelines.
+
+| Repository | Stars | Description |
+| :--- | :--- | :--- |
+| **[Home Assistant Core](https://github.com/home-assistant/core)** 🏠 | [![GitHub stars](https://img.shields.io/github/stars/home-assistant/core?style=social&color=white)](https://github.com/home-assistant/core/stargazers) | Open-source home and building automation platform putting local control and data privacy first. |
+| **[ThingsBoard](https://github.com/thingsboard/thingsboard)** 📊 | [![GitHub stars](https://img.shields.io/github/stars/thingsboard/thingsboard?style=social&color=white)](https://github.com/thingsboard/thingsboard/stargazers) | Open-source IoT platform for device management, data collection, processing, and building twin visualization. |
+| **[IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell)** 📐 | [![GitHub stars](https://img.shields.io/github/stars/IfcOpenShell/IfcOpenShell?style=social&color=white)](https://github.com/IfcOpenShell/IfcOpenShell/stargazers) | Leading open-source IFC library and geometry engine—parse, convert, and analyze Industry Foundation Classes BIM models. |
+| **[OpenRemote](https://github.com/openremote/openremote)** 📡 | [![GitHub stars](https://img.shields.io/github/stars/openremote/openremote?style=social&color=white)](https://github.com/openremote/openremote/stargazers) | 100% open-source IoT management platform for smart cities, energy management, and asset building twins. |
+| **[Eclipse Ditto](https://github.com/eclipse-ditto/ditto)** 🔄 | [![GitHub stars](https://img.shields.io/github/stars/eclipse-ditto/ditto?style=social&color=white)](https://github.com/eclipse-ditto/ditto/stargazers) | Cloud-native open-source digital twin framework providing state representation and APIs for IoT devices and physical assets. |
+| **[Speckle Server](https://github.com/specklesystems/speckle-server)** 🌐 | [![GitHub stars](https://img.shields.io/github/stars/specklesystems/speckle-server?style=social&color=white)](https://github.com/specklesystems/speckle-server/stargazers) | Open-source data platform for 3D AEC data streams, enabling real-time BIM model extraction and twin synchronization. |
+| **[Apache StreamPipes](https://github.com/apache/streampipes)** ⚡ | [![GitHub stars](https://img.shields.io/github/stars/apache/streampipes?style=social&color=white)](https://github.com/apache/streampipes/stargazers) | Industrial IoT platform to enable non-technical users to connect, analyze, and explore building sensor streams. |
+| **[That Open Engine Components](https://github.com/ThatOpen/engine_components)** 💻 | [![GitHub stars](https://img.shields.io/github/stars/ThatOpen/engine_components?style=social&color=white)](https://github.com/ThatOpen/engine_components/stargazers) | Modular web components for loading, manipulating, and rendering high-performance 3D BIM models in browser digital twins. |
+| **[xBIM Essentials](https://github.com/xBimTeam/XbimEssentials)** 🛠️ | [![GitHub stars](https://img.shields.io/github/stars/xBimTeam/XbimEssentials?style=social&color=white)](https://github.com/xBimTeam/XbimEssentials/stargazers) | Open-source .NET toolkit for IFC modeling—reading, writing, and manipulating building models programmatically. |
+| **[VOLTTRON](https://github.com/VOLTTRON/volttron)** 🔋 | [![GitHub stars](https://img.shields.io/github/stars/VOLTTRON/volttron?style=social&color=white)](https://github.com/VOLTTRON/volttron/stargazers) | Distributed agent execution platform for building energy management, microgrid control, and operational twins. |
+| **[Brick Schema](https://github.com/BrickSchema/Brick)** 🧱 | [![GitHub stars](https://img.shields.io/github/stars/BrickSchema/Brick?style=social&color=white)](https://github.com/BrickSchema/Brick/stargazers) | Open semantic metadata schema for buildings—standardizing equipment, point, and spatial relationships for digital twins. |
+| **[Ladybug Tools (Honeybee)](https://github.com/ladybug-tools/honeybee-core)** 🐝 | [![GitHub stars](https://img.shields.io/github/stars/ladybug-tools/honeybee-core?style=social&color=white)](https://github.com/ladybug-tools/honeybee-core/stargazers) | Python library for building environmental simulation, energy modeling, and daylight performance twin analysis. |
+
+---
+
+## 🛠️ Architectural Blueprints
+
+- 📐 **Geometry & BIM**: IfcOpenShell + Bonsai (BlenderBIM) + That Open Web Components.
+- 🏷️ **Semantics & Graph**: Brick Schema for equipment and spatial metadata modeling.
+- 📡 **Live Twin API & Telemetry**: Eclipse Ditto, ThingsBoard, and OpenRemote for IoT device twins.
+- 🔄 **Composable Data Stack**: IFC Model → Web 3D Viewer + Brick Metadata + MQTT Broker + Eclipse Ditto API → Operational Facility Dashboard.
+
+---
+
+## 🤝 How to Contribute
+
+1. 🍴 Fork the repository.
+2. 📝 Add or update entries in `README.md` (following the existing table structure).
+3. 🎯 Include: name, website link, 1–2 sentence description, pricing, and category.
+4. 🚀 Submit a Pull Request with a clear explanation of your additions.
+
+⭐ **Don't forget to star this repository if you find it helpful!**
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and contributing to this digital twin ecosystem resource! If you find this curated list valuable for your facility engineering, research, or PropTech projects, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🔀 **Fork & Share** with your colleagues, AEC networks, and smart-building communities.
+- ☕ **Buy a Coffee / Sponsor**: Support ongoing maintenance and curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository contains a **community-curated** index — not exhaustive and not a commercial endorsement.
+- Building digital twins process IoT sensor readings, spatial design geometries, and occupant metrics. Ensure strict network security, OT cyber hygiene, and data privacy safeguards when interfacing operational technology.
+- Software specifications, market valuations, and pricing tiers are subject to change. Always verify directly with vendors.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Digital-Twin-For-Buildings&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Digital-Twin-For-Buildings&type=date&legend=top-left)
+
+---
+
+**Made with ❤️ for facility owners, BIM managers, smart-building engineers, and digital twin software builders.**
 
 
-**Made for facility owners, BIM managers, smart-building engineers, and digital twin builders.**  
-
-Let's expand open OpenBIM and building twin stacks while recognizing the operational depth that leading commercial platforms deliver.
